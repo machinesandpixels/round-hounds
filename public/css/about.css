@@ -44,9 +44,6 @@ a:hover {
     color: var(--text-color);
 }
 
-/* section{
-   height: 100vh;
-} */
 .sectionContainer{
     background-image: url('../images/menu.jpg');
     /* background-position: center; */
@@ -73,10 +70,11 @@ a:hover {
     text-align: center;
 }
 
-.shop-item-details > h1{
-    line-height: 1.2;
+.shop-item-details > h2{
+    line-height: 1.5;
     color: var(--text-color);
 }
+
 .btn {
     text-align: center;
     vertical-align: middle;
