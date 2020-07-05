@@ -135,3 +135,20 @@ a:hover {
     }
     
 }
+
+/* For Mobile */
+@media screen and (max-width: 667px) {
+    .navBar{
+        font-size: 1.5rem;
+    }
+    ul li{
+        margin: 0 0.5rem;
+    }
+    .landingContainer > h1 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .landingContainer > h3{
+        font-size: 2rem;
+    } 
+}
