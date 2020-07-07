@@ -10,6 +10,7 @@ External APIs: Mailchimp and Stripe <br>
 ## Motivation
 
 > Tech skills are modern entrepreneur skills.
+
 Project 4 is my final passion project and so I wanted to showcase 
 how technology allows for creative ideas to be launched with almost zero cost. Here are the dreams of owning a Burger Joint and having a landing page to share with your first customers.  
 
@@ -37,7 +38,7 @@ how technology allows for creative ideas to be launched with almost zero cost. H
 - Mailchimp
 https://mailchimp.com/developer/guides/get-started-with-mailchimp-api-3/
 
-- Stripe: 
+- Stripe
 https://medium.com/@asimzaidi/stripe-checkout-api-in-node-js-tutorial-898a14ddf620
 
 ---
