@@ -1,7 +1,6 @@
 import React from 'react';
-import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <h1>Refactor</h1>
