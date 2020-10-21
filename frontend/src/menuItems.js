@@ -4,7 +4,7 @@ const menuItems = [
         name: "Little Hound",
         price: 800,
         image: "/images/littleHound.jpg",
-        rating: 4,
+        rating: 3,
         numReviews: 3
       },
       {
