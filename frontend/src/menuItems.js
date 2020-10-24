@@ -5,7 +5,9 @@ const menuItems = [
         price: 800,
         image: "/images/littleHound.jpg",
         rating: 3,
-        numReviews: 3
+        numReviews: 3,
+        toppings: "Lettuce, Tomatoes",
+        countInStock: 0
       },
       {
         "_id": 2,
@@ -13,8 +15,10 @@ const menuItems = [
         "price": 1200,
         "image": "/images/roundHound.jpg",
         "rating": 5,
-        "numReviews": 6
-      }
+        "numReviews": 6,
+        "toppings": "Lettuce, Tomatoes",
+        "countInStock": 2
+      },
   ];
 
-  export default menuItems;
+export default menuItems;
