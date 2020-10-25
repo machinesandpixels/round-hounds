@@ -13,7 +13,7 @@ const App = () => {
         <main className='py-5'>
           <Container>
             <Route path='/' component={ HomeScreen } exact />
-            <Route path='/menuItems/:id' component={ ItemScreen } />
+            <Route path='/menu/:id' component={ ItemScreen } />
           </Container>
         </main>
       <Footer />
