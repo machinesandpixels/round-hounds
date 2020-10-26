@@ -6,11 +6,11 @@ import { Card } from 'react-bootstrap';
 const Item = ({ item }) => {
     return (
         <Card className="my-3 p-3 rounded">
-            <Link to={`/menuItems/${item._id}`}>
+            <Link to={`/menu/${item._id}`}>
                 <Card.Img src={item.image} variant="top" />
             </Link>
             <Card.Body>
-                <Link to={`/menuItems/${item._id}`}>
+                <Link to={`/menu/${item._id}`}>
                     <Card.Title as="div">
                         <strong>{item.name}</strong>
                     </Card.Title>
