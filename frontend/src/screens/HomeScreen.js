@@ -3,16 +3,15 @@ import axios from 'axios';
 import { Row, Col }from 'react-bootstrap';
 import Item from '../components/Item';
 
-import menuItems from '../menuItems';
-const endPoint = 'http://localhost:5000/api/v1/menu';
+const endPoint = '/api/v1/menu';
 
 const HomeScreen = () => {
-   const [menu, setMenu] = useState([]);
+   const [menuItems, setMenu] = useState([]);
 
    useEffect(() => {
         const fetchMenu = async () => {
             const { data } = await axios.get(endPoint);
-            setMenu(menu);
+            setMenu(data);
         }
 
         fetchMenu();
