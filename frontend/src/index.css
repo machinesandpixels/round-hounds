@@ -6,9 +6,12 @@ h3 {
     padding: 1rem 0;
 }
 
-img {
-    max-height: 250px;
-}
+/* img {
+    height: 250px;
+    min-height: 100%;
+    width: 100%;
+    max-width: 221px;
+} */
 
 .rating > span {
     margin: 0.1rem;
